@@ -1,5 +1,5 @@
 # [IV2025] Cross-Level Sensor Fusion with Object Lists via Transformer for 3D Object Detection 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://ieeexplore.ieee.org/abstract/document/11097627)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2512.12884)
 <!-- ## Introduction -->
 
 This repository is an official implementation of CLF for object detection based on [PETRv2](https://arxiv.org/abs/2206.01256). The flash attention version can be find from the "[flash](https://github.com/megvii-research/PETR/tree/flash)" branch.
@@ -78,10 +78,12 @@ Many thanks to the authors of [mmdetection3d](https://github.com/open-mmlab/mmde
 ## Citation
 If you find this project useful for your research, please consider citing: 
 ```bibtex   
-@article{liu2022petr,
-  title={Petr: Position embedding transformation for multi-view 3d object detection},
-  author={Liu, Yingfei and Wang, Tiancai and Zhang, Xiangyu and Sun, Jian},
-  journal={arXiv preprint arXiv:2203.05625},
-  year={2022}
+@inproceedings{liu2025cross,
+  title={Cross-Level Sensor Fusion with Object Lists via Transformer for 3D Object Detection},
+  author={Liu, Xiangzhong and Zhang, Jiajie and Shen, Hao},
+  booktitle={2025 IEEE Intelligent Vehicles Symposium (IV)},
+  pages={236--241},
+  year={2025},
+  organization={IEEE}
 }
 ```
